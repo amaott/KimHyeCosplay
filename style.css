@@ -7,3 +7,19 @@ body{
 	/*background-image : url("https://farm4.staticflickr.com/3298/3413543261_1510e079ae.jpg");*/
 	background-image : url("https://i.pinimg.com/564x/c0/86/4a/c0864a9fc47915c685e86df172c37b55.jpg");
 }
+
+nav{
+	position : fixed;
+	top : 0;
+	width : 100%;
+}
+
+.updates{
+	overflow : scroll;
+	width : 100%;
+	height : 150px;
+}
+
+.updates p::first-line{
+	font-style : italic;
+}
